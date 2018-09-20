@@ -1,0 +1,39 @@
+.dropdown-custom button {
+    background-color: transparent;
+    border: 1px solid #D3D3D3;
+    width: 20%;
+    text-align: left;
+    margin: 2em;
+    font-weight: 500;
+    box-shadow: none !important;
+    height: 2.8em;
+}
+
+.dropdown-menu-custom {
+    width: 20%;
+    margin-top: .3em !important;
+}
+
+.dropdown-menu-custom > input {
+    margin: 0px 0px 10px 23px;
+    width: 83%;
+    outline: 0px;
+    padding-left: 10px;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+.dropdown-item-tick-span::after {
+    content: '\2713';
+    float: right;
+    color: #228B22;
+    font-weight: bold;
+}
+
+@media (min-width:813px){
+    .dropdown-menu-custom > input {
+        margin: 0px 0px 10px 17px;
+    }
+}
